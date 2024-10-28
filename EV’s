@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electric Cars and Autonomous Vehicles</title>
+    <style>
+        * { 
+            box-sizing: border-box; 
+            margin: 0; 
+            padding: 0; 
+        }
+        body { 
+            font-family: 'Arial', sans-serif; 
+            line-height: 1.6; 
+            background-color: #f4f4f4; 
+            color: #333; 
+        }
+        header, footer { 
+            background: #4CAF50; 
+            color: white; 
+            text-align: center; 
+            padding: 20px; 
+        }
+        nav { 
+            background: #333; 
+            color: white; 
+            display: flex; 
+            justify-content: center; 
+            padding: 10px 0; 
+        }
+        nav ul { 
+            list-style-type: none; 
+            display: flex; 
+            gap: 20px; 
+        }
+        nav a { 
+            color: white; 
+            text-decoration: none; 
+            transition: color 0.3s; 
+        }
+        nav a:hover { 
+            color: #4CAF50; 
+        }
+        main { 
+            max-width: 800px; 
+            margin: 20px auto; 
+            padding: 20px; 
+            background: white; 
+            border-radius: 8px; 
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+            display: grid; 
+            grid-template-columns: 1fr; 
+            gap: 20px; 
+        }
+        h2 { 
+            color: #4CAF50; 
+            margin-bottom: 10px; 
+            border-bottom: 2px solid #4CAF50; 
+            padding-bottom: 5px; 
+        }
+        label, select, button { 
+            margin: 10px 0; 
+            font-size: 1rem; 
+        }
+        ul { 
+            list-style-position: inside; 
+        }
+        @media (min-width: 600px) {
+            main { 
+                grid-template-columns: 1fr 1fr; 
+            }
+            nav ul { 
+                gap: 40px; 
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Electric Cars and Autonomous Vehicles</h1>
+    </header>
+
+    <nav aria-label="Main Navigation">
+        <ul>
+            <li><a href="#objectives">Objectives</a></li>
+            <li><a href="#insights">Additional Insights</a></li>
+            <li><a href="#physics">Physics in EV Design</a></li>
+            <li><a href="#mathematics">Mathematics in EV Development</a></li>
+            <li><a href="#ict">Impact of ICT</a></li>
+            <li><a href="#english">English in EV Research</a></li>
+            <li><a href="#journey">Journey Analysis</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="introduction" aria-labelledby="introduction-heading">
+            <h2 id="introduction-heading">Introduction</h2>
+            <p>In the rapidly evolving landscape of transportation, electric vehicles (EVs) and autonomous technologies are revolutionizing the way we think about mobility. As concerns about climate change and urban air quality intensify, electric cars present a cleaner, sustainable alternative to traditional gasoline-powered vehicles. Coupled with advancements in autonomous driving, these technologies promise to enhance safety, efficiency, and convenience on our roads. This project delves into the intersection of electric vehicles and autonomous systems, exploring their benefits, challenges, and the scientific principles that drive innovation in this exciting field.</p>
+        </section>
+
+        <section id="objectives" aria-labelledby="objectives-heading">
+            <h2 id="objectives-heading">Objectives</h2>
+            <p>To develop a comprehensive and innovative autonomous electric vehicle that integrates principles from ICT, physics, English, and mathematics to enhance performance, safety, and user experience.</p>
+        </section>
+
+        <section id="insights" aria-labelledby="insights-heading">
+            <h2 id="insights-heading">Additional Insights from the Project</h2>
+            <ul>
+                <li>Equipment used includes Arduino UNO, TT Gear Motor, HC-05 Bluetooth Module, Samsung 18650 Battery, and LEDs.</li>
+                <li>Engineering design process used instead of the traditional scientific method for iterative testing and improvements.</li>
+                <li>Advanced battery management systems and regenerative braking contribute to energy efficiency.</li>
+            </ul>
+        </section>
+
+        <section id="physics" aria-labelledby="physics-heading">
+            <h2 id="physics-heading">Physics in EV Design</h2>
+            <ul>
+                <li><strong>Kinematics</strong>: Calculations of speed, velocity, and deceleration for safe navigation.</li>
+                <li><strong>Dynamics</strong>: Study of forces and torques for accelerating, decelerating, and avoiding skidding.</li>
+                <li><strong>Optics</strong>: Use of sensors like LiDAR and cameras, interpreting data through light properties.</li>
+                <li><strong>Electromagnetism</strong>: Radar and radio systems based on electromagnetic principles.</li>
+                <li><strong>Quantum Mechanics</strong>: LiDAR sensors utilizing photon properties for precision measurement.</li>
+                <li><strong>Thermodynamics</strong>: Efficient heat management to prevent overheating.</li>
+            </ul>
+        </section>
+
+        <section id="mathematics" aria-labelledby="mathematics-heading">
+            <h2 id="mathematics-heading">Mathematics in EV Development</h2>
+            <p>Mathematics is crucial in designing and optimizing electric vehicles, particularly for autonomous functionality. Key areas include:</p>
+            <ul>
+                <li><strong>Linear Algebra</strong>: Used for sensor data processing. Helps convert data from cameras and LiDAR sensors into a 3D model of the surroundings, allowing the vehicle to determine position, orientation, and distance from objects. This is essential for navigation and mapping.</li>
+                <li><strong>Calculus</strong>: Essential for motion and path planning. Differential calculus helps the EV adjust speed and acceleration in real time, ensuring smooth and safe movements. Integral calculus is applied for path optimization, accounting for factors like road curvature and distance.</li>
+                <li><strong>Geographic Calculations</strong>: Used for accurate route planning and localization. Calculations account for distances and geographical positioning when planning routes, especially for cross-border journeys.</li>
+            </ul>
+        </section>
+
+        <section id="ict" aria-labelledby="ict-heading">
+            <h2 id="ict-heading">Impact of ICT on Electric Cars</h2>
+            <ul>
+                <li>Electric motors and batteries reduce emissions and maintenance.</li>
+                <li>Intelligent energy management optimizes battery life and driving range.</li>
+                <li>Regenerative braking captures energy during deceleration.</li>
+                <li>Control systems handle motor efficiency and route planning.</li>
+            </ul>
+        </section>
+
+        <section id="english" aria-labelledby="english-heading">
+            <h2 id="english-heading">English in EV Research</h2>
+            <p>English plays a role in conveying the environmental and economic benefits of EVs. It supports communication on the viability of EVs for the general public and research sharing.</p>
+        </section>
+
+        <section id="journey" aria-labelledby="journey-heading">
+            <h2 id="journey-heading">Journey Analysis</h2>
+            <label for="destination">Choose a destination:</label>
+            <select id="destination" aria-label="Select destination">
+                <option value="Sharjah to Makkah">Sharjah to Makkah (1800 km)</option>
+                <option value="Sharjah to Doha">Sharjah to Doha (700 km)</option>
+                <option value="Sharjah to Manama">Sharjah to Manama (900 km)</option>
+                <option value="Sharjah to Kuwait City">Sharjah to Kuwait City (1300 km)</option>
+                <option value="Sharjah to Washington, DC">Sharjah to Washington, DC (13000 km)</option>
+                <option value="Sharjah to Muscat">Sharjah to Muscat (450 km)</option>
+            </select>
+            <button id="calculateJourney" aria-label="Calculate journey">Calculate Journey</button>
+            <ul id="journeyResults" aria-labelledby="journey-results-heading"></ul>
+        </section>
+
+        <section id="resources" aria-labelledby="resources-heading">
+            <h2 id="resources-heading">The Resources We Used:</h2>
+            <ol>
+                <li>U.S. Department of Energy. (2022). "Electric Vehicle Benefits."</li>
+                <li>International Energy Agency. (2023). "Global EV Outlook 2023."</li>
+                <li>Intergovernmental Panel on Climate Change. (2022). "Climate Change and Land."</li>
+                <li>Environmental Science & Technology. (2021). "Impact of Electric Vehicle Adoption on Air Quality."</li>
+                <li>Journal of Cleaner Production. (2022). "Lifecycle Assessment of Electric Vehicles."</li>
+                <li>Nature Sustainability. (2021). "Advances in Lithium-Ion Battery Recycling."</li>
+            </ol>
+        </section>
+
+        <section id="conclusion" aria-labelledby="conclusion-heading">
+            <h2 id="conclusion-heading">Conclusion</h2>
+            <p>As we stand at the forefront of a new era in transportation, the integration of electric vehicles and autonomous technologies represents not just an evolution in mobility, but a pivotal shift towards a sustainable future. The benefits of EVs extend beyond environmental impact, encompassing economic advantages and enhanced safety on the roads. By embracing these technologies, we can pave the way for a cleaner, more efficient, and ultimately safer transportation system for generations to come. Our exploration into the physics, mathematics, and ICT principles that underpin this revolution highlights the interdisciplinary nature of innovation in this field. The future of mobility is electric, and we are just beginning to unlock its full potential.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Electric Vehicles Report</p>
+        <p>Done by Grade 8 AKAIS</p>
+        <p>The coding was made by:Reem Jassim & Marian Sami </p>
+
+    </footer>
+
+    <script>
+        document.getElementById("calculateJourney").addEventListener("click", function() {
+            const destinations = {
+                "Sharjah to Makkah": 1800,
+                "Sharjah to Doha": 700,
+                "Sharjah to Manama": 900,
+                "Sharjah to Kuwait City": 1300,
+                "Sharjah to Washington, DC": 13000,
+                "Sharjah to Muscat": 450
+            };
+
+            const E_battery = 75; // kWh
+            const C_motor = 15; // kWh per 100 km
+            const averageSpeed = 100; // km/h
+            const regenerativeBrakingEfficiency = 0.6; // 60%
+
+            // Energy consumption calculation
+            const calculateEnergy = (distance) => {
+                const baseEnergy = (distance / 100) * C_motor;
+                const totalEnergy = baseEnergy * (1 - regenerativeBrakingEfficiency);
+                const remainingEnergy = E_battery - totalEnergy;
+                const needsCharge = remainingEnergy < 0;
+
+                return { totalEnergy, remainingEnergy, needsCharge };
+            };
+
+            // Estimated time of travel
+            const calculateTime = (distance) => distance / averageSpeed;
+
+            // Populate journey results
+            const journeyResults = document.getElementById("journeyResults");
+            journeyResults.innerHTML = ''; // Clear previous results
+            const selectedDestination = document.getElementById("destination").value;
+            const distance = destinations[selectedDestination];
+            
+            const { totalEnergy, remainingEnergy, needsCharge } = calculateEnergy(distance);
+            const travelTime = calculateTime(distance);
+            
+            const listItem = document.createElement("li");
+            listItem.innerHTML = `<strong>${selectedDestination}</strong>: 
+                Total Distance: ${distance} km,
+                Estimated Time: ${travelTime.toFixed(2)} hours, 
+                Total Energy Consumption: ${totalEnergy.toFixed(2)} kWh, 
+                Remaining Energy: ${remainingEnergy.toFixed(2)} kWh 
+                ${needsCharge ? ', Additional charging needed.' : ''}`;
+            journeyResults.appendChild(listItem);
+        });
+    </script>
+</body>
+</html>
